@@ -141,6 +141,7 @@ main {
   color: #757575;
 }
 
+/* CURRENCY TABLE */
 .echange-tableCurrency {
   width: 70%;
   min-width: 235px;
@@ -178,4 +179,104 @@ main {
   line-height: 1.9rem;
   color: var(--grey);
   background-color: var(--just-white);
+}
+
+.echange__topTableLeft {
+  border-radius: 15px 0 0 0;
+}
+.echange__topTableRight {
+  border-radius: 0 15px 0 0;
+}
+.echange__bottomTableLeft {
+  border-radius: 0 0 0 15px;
+}
+.echange__bottomTableRight {
+  border-radius: 0 0 15px 0;
+}
+
+.echange-tableCurrencyContainer .echange__TableRight {
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.7rem;
+  color: #757575;
+}
+.echange-down {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background-image: url(../assets/icons/trending-down.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.echange-up {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background-image: url(../assets/icons/trending-up.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* COMMISSIONS TABLE */
+.echange-tableCommission {
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  height: 360px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+.echange-tableCommission > p {
+  margin: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  color: var(--secondary-blue);
+}
+
+.echange-tableCommissionContainer {
+  width: 90%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.echange-tableCommissionContainer table {
+  width: 100%;
+  height: 100%;
+}
+
+.echange-tableCommissionContainer td {
+  width: 50%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  color: var(--grey);
+  background-color: var(--just-white);
+}
+
+.echange__topTableLeft {
+  border-radius: 15px 0 0 0;
+}
+.echange__topTableRight {
+  border-radius: 0 15px 0 0;
+}
+.echange__bottomTableLeft {
+  border-radius: 0 0 0 15px;
+}
+.echange__bottomTableRight {
+  border-radius: 0 0 15px 0;
+}
+
+.echange-tableCommissionContainer .echange__TableRight {
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.7rem;
+  color: #757575;
 }
