@@ -221,6 +221,19 @@ main {
   background-repeat: no-repeat;
 }
 
+.echange-dateCurrency {
+  width: max-content;
+  height: 30px;
+  margin: 15px auto 0;
+  padding: 8px;
+  background-color: var(--soft-orange);
+  border-radius: 8px;
+}
+.echange-dateCurrency p {
+  font-size: 1.2rem;
+  margin: 0px;
+  color: var(--warm-black);
+}
 /* COMMISSIONS TABLE */
 .echange-tableCommission {
   width: 70%;
@@ -279,4 +292,15 @@ main {
   font-weight: normal;
   line-height: 1.7rem;
   color: #757575;
+}
+.echange-dateCommision p {
+  font-size: 1.2rem;
+  margin: 0px;
+  color: var(--warm-black);
+}
+.echange-dateCommision {
+  width: max-content;
+  height: 30px;
+  margin: 15px auto 0;
+  padding: 8px;
 }
