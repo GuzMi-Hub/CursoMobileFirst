@@ -311,7 +311,7 @@ main {
   min-width: 320px;
   height: auto;
   padding: 20px 10px;
-  background-color: var(--warm-black);
+  background-color: var(--black);
 }
 .productDetail__logo {
   position: absolute;
@@ -332,6 +332,7 @@ main {
 }
 
 .productDetail__mainTitle h2 {
+  margin-top: 0;
   margin-bottom: 20px;
   font-size: 2.4rem;
   font-weight: bold;
@@ -341,6 +342,69 @@ main {
 
 .productDetail__mainTitle p {
   margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+.productDetail__card {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--warm-black);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.productDetail__card .clock {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../assets/icons/clock.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.productDetail__card .eye {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../assets/icons/eye.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.productDetail__card .cash {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../assets/icons/dollar-sign.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.productDetail__card .complete {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../assets/icons/check-circle.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.productDetail__title {
+  margin-top: 12px;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+.productDetail__body {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
