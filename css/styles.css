@@ -141,6 +141,17 @@ main {
   color: #757575;
 }
 
+.echange-tablesContainer {
+  margin: 0 42px;
+  display: flex;
+  overflow-x: scroll;
+  overscroll-behavior: contain;
+  scroll-snap-type: x mandatory;
+}
+
+.tablin {
+  scroll-snap-align: center;
+}
 /* CURRENCY TABLE */
 .echange-tableCurrency {
   width: 70%;
